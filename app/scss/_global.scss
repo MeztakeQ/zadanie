@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-image: url(../images/bg.png);
+    color: #fff;
+    height: 100vh;
+    font-family: 'Exo2.0-Thin', sans-serif;
+}
+
+
+ 
+h6,
+h5,
+h4,
+h3,
+h2,
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+menu{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+
